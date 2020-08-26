@@ -165,7 +165,7 @@ class _FlutterGaugeState extends State<FlutterGauge> {
   @override
   Widget build(BuildContext context) {
 //    animateHourHand(widget.index,7.0);
-//    eventObservable.add(widget.index);
+    eventObservable.add(widget.index);
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       mainAxisSize: MainAxisSize.max,
